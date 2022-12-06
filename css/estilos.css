@@ -1,0 +1,155 @@
+:root{
+    --bs-secondary :#5a5a5a;
+    --bs-blue: #037bc0;
+    --bs-yellow: #dd820d;
+    --bs-indigo: #323068;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+h1, h2, h3{
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 5rem;
+}
+
+.menu a{
+    color: #fff;
+    border: .2rem solid transparent;
+}
+
+.menu a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.hero{
+    background-image: url(../img/fondo.png);
+    height: 60rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero .contenedor-texto{
+    margin: 19rem 0;
+}
+
+.hero .contenedor-texto .texto{
+    border: .2rem solid #fff;
+    border-radius: .5rem;
+    padding: 2rem 6rem;
+}
+
+.main .foto{
+    margin-top: -8rem;
+}
+
+.main .foto img{
+    border: .5rem solid rgb(255 255 255 / .2);
+}
+
+.main .titulo{
+    color: var(--bs-yellow);
+    font-weight: 300;
+}
+
+.main .texto{
+    color: var(--bs-secondary);
+    font-weight: 600;
+    width: 80%;
+    margin: 4rem auto 6rem auto;
+}
+
+/* Habilidades */
+
+.main .habilidades{
+    background: #f2f2f2;
+}
+
+.main .habilidades h2{
+    color: var(--bs-indigo);
+}
+
+.main .habilidades p{
+    font-size: 1.8rem;
+    color: var(--bs-blue);
+}
+
+/* Estudios */
+.estudios h2{
+    color: var(--bs-yellow);
+}
+
+.estudios img{
+    height: 30rem;
+    background-position: center center;
+    object-fit: cover;
+}
+
+/* Perfil Prfesional */
+.perfil{
+    color: var(--bs-yellow);
+}
+
+.texto-perfil{
+    color: var(--bs-secondary)
+}
+
+/* Portafolio */
+.titulo-portafolio{
+    color: #323068;
+}
+
+.main .portafolio{
+    background: #f2f2f2;
+}
+
+.portafolio img{
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+
+.portafolio img:hover{
+    transform: scale(1.2);
+}
+
+/* Footer */
+.redes{
+    background: #1e2b38;
+}
+
+.redes a{
+    width: 10rem;
+    padding: 1.5rem 0;
+    font-size: 3rem;
+}
+
+.redes .linkedin:hover{
+    background: #1da1f2;
+}
+
+.redes .github:hover{
+    background: #333;
+}
+
+.redes .whatsapp:hover{
+    background: #25d366;
+}
+
+.redes .twitter:hover{
+    background: #1da1f2;
+}
+
+.redes .youtube:hover{
+    background: #ff0000;
+}
